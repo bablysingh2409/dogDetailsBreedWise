@@ -25,7 +25,7 @@
 }
 
 .get-img{
-    margin-right: 200px;
+    margin-right: 10%;
     width:150px;
     height: 40px;
     background-image: linear-gradient(to top,#ECECEC,#ECE8DD);
@@ -33,26 +33,26 @@
     font-size: 1.2em;
 }
 
-#main-container{
-    height: 50vh;
+.select-subBreed{
+    margin-left: 8% ;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #999;
+    font-size: 1.2em;
+    color: black;
+    background-color: #eee;
+    outline: none;
+}
+
+.img-container{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    flex-wrap: wrap;
     align-items: center;
 }
-
-.next-img{
-    background-color: inherit;
-    border: 1px solid lightgray;
-    width: 150px;
-    height: 50px;
-    font-size: 1.3em;
-    margin-right:10rem ;
-}
-
-.img{
-    width: 450px;
-    height: 450px;
-    margin-left: 8rem;
-    margin-top: 10rem;
-    
+.breed-img{
+   width: 300px;
+   height: 300px;
+   margin: 5px;
+   border: 2px solid black;
 }
